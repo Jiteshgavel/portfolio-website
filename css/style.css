@@ -61,7 +61,15 @@ p{
 }
 
 .list-group-item:hover{
-
+    background-color: #fff !important;
+    box-shadow: 3px 3px 1px rgb(58, 56, 56);
+    color:#000 !important;
+    border-radius: 0% !important;
+    -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 }
 .form-control{
     background-color: rgba(0, 0, 0, 0.233) !important;
