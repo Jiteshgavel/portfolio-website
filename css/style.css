@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 2% 0% 0% 0%;
+} 
+
+body{
+    background-image: url('../images/back-ground-image.jpg');
+}
+
+#main{
+   color: #fff;
+}
+p{
+    font-size: 20px;
+    font-weight: 200 !important;
+}
+/* .list-tab{
+    background-color: rgba(0, 0, 0, 0.979);
+} */
+
+#list-tab{
+    padding: 15%;
+    background:#00000091 !important;
+}
+#nav-tabContent{
+    background:#00000091 !important;
+}
+.list-group-item{
+    padding: 5%;
+    cursor: pointer;
+    margin-bottom: 2%;
+    box-shadow: #fff;
+    box-shadow: 0 4px 8px 0 rgba(255, 252, 252, 0.753), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    background-color: #1f1d1d31 !important;
+}
+.tab-pane{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    overflow: auto;
+    overflow-x: hidden;
+    /* position: absolute; */
+  /* top: 50%; */
+}
+#profilePicture{
+    box-shadow: 3px 3px 1px #ccc;
+    /* border-radius: 20%; */
+    padding: 20%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* width: auto; */
+}
+#certificate{
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    box-shadow: 3px 3px 1px #ccc;
+}
+
+.list-group-item:hover{
+
+}
+.form-control{
+    background-color: rgba(0, 0, 0, 0.233) !important;
+    color: #fff !important;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.233) !important;
+    color: #fff !important;
+    box-shadow: 3px 3px 1px #ccc;
+    border-radius: 0% !important;
+}
+button:hover{
+    background-color: #fff !important;
+    box-shadow: 3px 3px 1px rgb(58, 56, 56);
+    color:#000 !important;
+    border-radius: 0% !important;
+}
+
+/* a:hover::before {
+    -webkit-animation: fill 0.7s forwards ease-in-out;
+    animation: fill 0.7s forwards ease-in-out;
+    background-color: #fff;
+    color: #fff;
+    opacity: 1;
+} */
